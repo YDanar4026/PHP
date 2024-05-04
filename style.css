@@ -1,0 +1,120 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Link Styles */
+.link-regis {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-regis a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-regis a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #000000;
+}

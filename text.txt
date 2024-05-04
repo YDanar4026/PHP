@@ -1,0 +1,1 @@
+ALTER TABLE todolist AUTO_INCREMENT = 1;
